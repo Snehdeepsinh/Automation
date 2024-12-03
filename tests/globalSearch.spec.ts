@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import {PageMapping} from '../pages/PageMapping';
 // JSON -> string -> js object
 const data = JSON.parse(JSON.stringify(require("../testData/eoniData.json")));
-
+//file 2Check
 // test.describe.configure({mode:'parallel'});
 // test.describe.configure({mode:'serial'}); // if 1 test fail then next test will skip 
 test("Global search for elector", async ({ page }) => {
