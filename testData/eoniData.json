@@ -1,0 +1,19 @@
+{
+    "url" : "https://teamd-xpress-emsapp.civica-ems.co.uk/",
+    "username" : "snehdeep.vaghela@civica2.com",
+    "password" : "Snehdeep@123",
+    "urlUAT" : "https://uat-xpress-emsapp.civica-ems.co.uk/",
+    "usernameUAT" : "uat.xpress.admin.eoni.ni@civica.co.uk" ,
+    "passwordUAT" : "C1V!CaUat",
+
+    "urlPPROD" : "https://pprod-xpress-emsapp.civica-ems.co.uk/",
+    "usernamePPROD" : "preprodAdmin2@civica.co.uk",
+    "passwordPPROD" : "Testtest1!",
+    
+    "registrationChannel" : "Form - Sent by us",
+    "firstName" : "Sam",
+    "lastName" : "Curran",
+    "nationality" : "British",
+    "nino" : "AB990899A",
+    "dob" : "31/12/1986"
+}
