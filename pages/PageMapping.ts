@@ -14,6 +14,7 @@ export class PageMapping
     registerOfElectorsPage : RegisterOfElectorsPage;
     createPendingElectorPage : CreatePendingElectorPage;
     globalSearchPage : GlobalSearchPage;
+    master:Master;
 
     constructor(page: Page)
     {
@@ -23,6 +24,7 @@ export class PageMapping
     this.registerOfElectorsPage = new RegisterOfElectorsPage(this.page);
     this.createPendingElectorPage = new CreatePendingElectorPage(this.page);
     this.globalSearchPage = new GlobalSearchPage(this.page);
+    this.master = new Master(this.page);
     }
     getLoginPage()
     {
@@ -44,7 +46,10 @@ export class PageMapping
         return this.createPendingElectorPage;
     }
 
-    getGlobalSearch() {return this.globalSearchPage;}
+    getGlobalSearch() 
+    {
+        return this.globalSearchPage;
+    }
 
 
 }
